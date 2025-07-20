@@ -1,5 +1,7 @@
 # ZippyVerse
-ZippyVerse, ebeveynler ve çocukları için eğlenceli etkinlik fikirleri sunan bir uygulamadır.
+ZippyVerse, ebeveynler ve çocukları için eğlenceli etkinlik fikirleri sunan yapay zeka tabanlı bir mobil uygulamadır. 
+
+Kotlin ile yazılmıştır, yapay zeka modeli olarak *deepseek-chat-v3-0324:free* modeli kullanılmıştır.
 
 ## Kurulum
 Öncelikle, uygulamayı çalıştırmak için Android Studio veya benzeri bir editörde kurulumu tamamlamalı ve [OpenRouter.ai](https://openrouter.ai/) web sitesinden bir API anahtarı almalısınız. API anahtarı almak için ücretsiz bir hesap 
@@ -9,6 +11,7 @@ Ardından kod dosyalarınız içinde yer alan *AcikHavaActivity.kt*, *EtkinlikAc
 değişkenlere keyinizi string olarak yapıştırın. (keyiniz genelde "*sk*" ile başlar.)
 
 ![Görsel 1](app/src/main/res/drawable/image1.png)
+
 *Görsel 1*
 
 Bu noktada emülatörü çalıştırdığınızda uygulama çalışacaktır.
@@ -24,4 +27,5 @@ dosyalarının içinde yer alan "model" değişkenini ilgili modelin dokümanın
 Ancak bu uygulama yazılırken "*deepseek-chat-v3-0324:free*" modeli kullanıldığı için çeşitli düzenlemeler yapmanız gerekebilir.
 
 ![Görsel 2](app/src/main/res/drawable/image2.png)
+
 *Görsel 2*
