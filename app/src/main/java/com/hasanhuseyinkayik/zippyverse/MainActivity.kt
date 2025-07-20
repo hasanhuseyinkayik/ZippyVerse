@@ -67,7 +67,6 @@ class MainActivity : ComponentActivity() {
                     val coroutineScope = rememberCoroutineScope()
                     var isInitialMessageHandled by remember { mutableStateOf(false) }
 
-                    // Sadece ilk açılışta etkinlikMesaji varsa mesajı gönder
                     LaunchedEffect(etkinlikMesaji) {
                         if (!isInitialMessageHandled && etkinlikMesaji != null) {
                             messages += Message("user", etkinlikMesaji)

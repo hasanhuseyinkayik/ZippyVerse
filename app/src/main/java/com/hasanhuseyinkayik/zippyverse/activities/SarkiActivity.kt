@@ -167,7 +167,6 @@ fun SarkiOnerisiEkrani(openRouterApi: com.hasanhuseyinkayik.zippyverse.network.O
                     modifier = Modifier.padding(bottom = 24.dp)
                 )
 
-                // 🎬 YouTube Linki Kutusu
                 Box(
                     modifier = Modifier
                         .fillMaxWidth(0.9f)
@@ -188,17 +187,15 @@ fun SarkiOnerisiEkrani(openRouterApi: com.hasanhuseyinkayik.zippyverse.network.O
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.Center
                     ) {
-                        // 🎥 YouTube Logosu
                         Icon(
                             painter = painterResource(id = R.drawable.youtube_logo),
                             contentDescription = "YouTube Logosu",
                             modifier = Modifier
                                 .size(32.dp)
                                 .padding(end = 8.dp),
-                            tint = Color.Unspecified // or Color.White if PNG isn't colored
+                            tint = Color.Unspecified
                         )
 
-                        // 🎵 Metin
                         Text(
                             text = "YouTube'da Dinle",
                             color = Color.White,

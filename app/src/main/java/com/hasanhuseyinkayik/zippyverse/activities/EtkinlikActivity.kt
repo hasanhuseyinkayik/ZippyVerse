@@ -48,11 +48,9 @@ fun EtkinlikOnerisiEkrani(openRouterApi: com.hasanhuseyinkayik.zippyverse.networ
     var isLoading by remember { mutableStateOf(false) }
     var errorMessage by remember { mutableStateOf<String?>(null) }
 
-    // Son 10 öneriyi tutan liste
     val oncekiOneriler = remember { mutableStateListOf<String>() }
     val coroutineScope = rememberCoroutineScope()
 
-    // Öneri alma işlemi fonksiyon haline getirildi
     suspend fun fetchEtkinlikOnerisi() {
         isLoading = true
         etkinlikOnerisi = null
@@ -107,7 +105,6 @@ fun EtkinlikOnerisiEkrani(openRouterApi: com.hasanhuseyinkayik.zippyverse.networ
                         etkinlikOnerisi = yeniEtkinlikAdi
                         etkinlikAciklamasi = aciklamaSatiri?.removePrefix("Açıklama:")?.trim()
 
-                        // Listeye yeni öneriyi ekle
                         oncekiOneriler.add(0, yeniEtkinlikAdi)
                         if (oncekiOneriler.size > 10) {
                             oncekiOneriler.removeAt(oncekiOneriler.lastIndex)
@@ -129,7 +126,6 @@ fun EtkinlikOnerisiEkrani(openRouterApi: com.hasanhuseyinkayik.zippyverse.networ
         }
     }
 
-    // Sayfa açılır açılmaz öneri isteği
     LaunchedEffect(Unit) {
         coroutineScope.launch {
             fetchEtkinlikOnerisi()
