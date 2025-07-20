@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.chatapp"
+    namespace = "com.hasanhuseyinkayik.zippyverse"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.chatapp"
+        applicationId = "com.hasanhuseyinkayik.zippyverse"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
