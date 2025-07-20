@@ -4,10 +4,10 @@ ZippyVerse, ebeveynler ve çocukları için eğlenceli etkinlik fikirleri sunan 
 Kotlin ile geliştirilmiştir, yapay zeka modeli olarak "*deepseek-chat-v3-0324:free*" modeli kullanılmıştır.
 
 <p align="center">
-  <img src="app/src/main/res/drawable/screen1.jpeg" width="235" height="510">
-  <img src="app/src/main/res/drawable/screen2.jpeg" width="235" height="510">
-  <img src="app/src/main/res/drawable/screen3.jpeg" width="235" height="510">
-  <img src="app/src/main/res/drawable/screen4.jpeg" width="235" height="510">
+  <img src="app/src/main/res/drawable/screen1.jpeg" width="188" height="408">
+  <img src="app/src/main/res/drawable/screen2.jpeg" width="188" height="408">
+  <img src="app/src/main/res/drawable/screen3.jpeg" width="188" height="408">
+  <img src="app/src/main/res/drawable/screen4.jpeg" width="188" height="408">
 </p>
 
 *Görsel 1*
