@@ -19,6 +19,8 @@ oluşturmalısınız (Google hesabınızla da kayıt olabilirsiniz).
 Ardından kod dosyalarınız içinde yer alan *AcikHavaActivity.kt*, *EtkinlikActivity.kt*, *OyunActivity.kt*, *SarkiActivity.kt*, *VideoActivity.kt* ve *MainActivity.kt* dosyalarında "API_KEY" olarak tanımlanan 
 değişkenlere keyinizi string olarak yapıştırın. (keyiniz genelde "*sk*" ile başlar.)
 
+Uygulama içinde ücretsiz bir yapay zeka modeli kullanıldığı için herhangi bir ücret kesilmesi durumu olmayacaktır. Modeli değiştirmek isterseniz Ek Bilgiler & Düzenleme başlığına inceleyebilirsiniz.
+
 ![Görsel 2](app/src/main/res/drawable/image1.png)
 
 *Görsel 2*
